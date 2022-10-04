@@ -39,6 +39,7 @@
     padding-top: 20px;
     gap: 5%;
 
+
 }
 
 .container1 .section1 .logo1 span.title1{
@@ -122,7 +123,7 @@
     text-align: end;
 } */
 .container2 .background .section2 .button1:hover{
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
     /* box-shadow: 5px 5px 5px 5px#05595B; */
 
    
@@ -138,6 +139,53 @@
     border: 1px solid black;
     padding: 15px 60px 15px 60px;
 }
+.down-loader{
+    margin-top: 10%;
+    margin-left: 50%;
+    width: 30px;
+    height: 50px;
+    border: 2px solid #1a1716;
+    border-radius: 30px;
+    background: transparent;
+    position: relative;
+
+    
+
+  }
+
+
+  
+
+  .down-loader::before{
+    content: '';
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    background-color: #413F42;
+    border-radius: 50%;
+    opacity: 1;
+    animation: wheel 1s infinite;
+    animation-fill-mode: forwards;
+    transition: 5.5s;
+    transform: translateX(10px);
+}
+@keyframes wheel {
+    
+    
+    from {top: 0px;}
+    to {top: 30px; background-color: #413F42;}
+  }
+
+    
+    /* margin-left: 10%;
+    width: 30px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 30px;
+    position: absolute;
+    overflow: hidden; */
+
+
 
 /* .container3{
     width: 100%;
@@ -336,7 +384,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
 }
 
 .container5 .section5 .projects{
@@ -386,9 +434,9 @@
     margin-bottom: 5%;
     text-transform: capitalize;
 }
-.container5 .section5 .project-content .project-link{
+/* .container5 .section5 .project-content .project-link{
     width: 39%;
-}
+} */
 .container5 .section5 .project-content .project-link a{
     text-decoration: none;
     text-transform: uppercase;
@@ -401,9 +449,9 @@
     padding: 10px 20px 10px 20px;
   
 }
-.container5 .section5 .project-content .project-link:hover{
+/* .container5 .section5 .project-content .project-link:hover{
     transform: scale(1.05);
-}
+} */
 
 .container5 .section5 .project2-img{
     display: grid;
@@ -434,9 +482,9 @@
     margin-bottom: 5%;
     text-transform: capitalize;
 }
-.container5 .section5 .project2-content .project2-link{
+/* .container5 .section5 .project2-content .project2-link{
     width: 39%;
-}
+} */
 .container5 .section5 .project2-content .project2-link a{
     text-decoration: none;
     text-transform: uppercase;
@@ -449,9 +497,9 @@
     padding: 10px 20px 10px 20px;
   
 }
-.container5 .section5 .project2-content .project2-link:hover{
+/* .container5 .section5 .project2-content .project2-link:hover{
     transform: scale(1.05);
-}
+} */
 .container5 .section5 .project3-img{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -481,9 +529,9 @@
     margin-bottom: 5%;
     text-transform: capitalize;
 }
-.container5 .section5 .project3-content .project3-link{
+/* .container5 .section5 .project3-content .project3-link{
     width: 39%;
-}
+} */
 .container5 .section5 .project3-content .project3-link a{
     text-decoration: none;
     text-transform: uppercase;
@@ -496,9 +544,9 @@
     padding: 10px 20px 10px 20px;
   
 }
-.container5 .section5 .project3-content .project3-link:hover{
+/* .container5 .section5 .project3-content .project3-link:hover{
     transform: scale(1.05);
-}
+} */
 .container6{
     width: 100%;
     height: 99vh;
@@ -582,13 +630,26 @@
 }
 .container6 .section6 .content7 .form .message textarea{
     width: 100%;
-    padding: 10px 300px 10px 10px;
+    /* padding: 10px 300px 10px 10px; */
     outline: none;
     background-color: #FFFFFF;
     border: 1px solid #FFFFFF;
     margin-bottom: 20px;
     font-size: medium;
     padding: 10px;
+}
+.container6 .section6 .content7 .form .send-btn{
+    width: 100%;
+    text-align: end;
+}
+.container6 .section6 .content7 .form .send-btn button{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: medium;
+    width: 50px;
+    height: 25px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
 }
 
 .container7{
@@ -648,8 +709,132 @@
 }
 
 
+/* @media screen and (max-width:1100px) {
 
+    .container5 .section5 .project-content .project-link{
+        width: 60%;
 
+    
+}
+}
+@media screen and (max-width:700px) {
+
+    .container5 .section5 .project-content .project-link{
+        width: 70%;
+
+    
+}
+}
+@media screen and (max-width:800px) {
+
+    .container5 .section5 .project-content .project-link{
+        width: 70%;
+
+    
+}
+} */
+
+/* .container-contact .section-contact{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.container-contact .section-contact input{
+    
+    border:0;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+ */
+
+ .container-contact{
+    background-image: url(/images/background3.jpg);
+ }
+.container-contact .section-contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-contact .section-contact .contact-heading{
+    width: 50%;
+    margin-top: 5%;
+
+}
+.container-contact .section-contact .contact-heading .contact-title{
+    font-size: medium;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.container-contact .section-contact .contact-heading .contact-content{
+    /* width: 50%; */
+    /* font-size: 40px; */
+    width: 80%;
+    margin-left: 10%;
+    font-size: medium;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.container-contact .section-contact .contact-heading .contact-img{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.container-contact .section-contact .contact-form {
+    margin-top: 5%;
+}
+.container-contact .section-contact .contact-form .contact-address{
+    margin-bottom: 10%;
+}
+.container-contact .section-contact .contact-form .contact-address ul li{
+    list-style: none;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.container-contact .section-contact .contact-form .contact-input{
+    width: 100%;
+    font-size: larger;
+    font-weight: 500;
+    text-transform: capitalize;
+
+ 
+}
+.container-contact .section-contact .contact-form .contact-input input{
+    margin-top: 10px;
+    width: 100%;
+    font-size: medium;
+    text-transform: capitalize;
+    border:0;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+.container-contact .section-contact .contact-form .contact-input textarea{
+    margin-top: 10px;
+    /* width: 100%;
+    font-size: medium;
+    text-transform: capitalize;
+    border:0;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px; */
+    width: 100%;
+    height: 100px;
+    /* padding: 12px 20px; */
+    box-sizing: border-box;
+    /* border: 2px solid #ccc; */
+    /* border-radius: 4px; */
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    font-size: medium;
+    text-transform: capitalize;
+    border:0;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
 
 
 
