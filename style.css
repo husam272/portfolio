@@ -1159,6 +1159,9 @@ footer .footer{
             width: 33%;
         
         }
+        .container2 .background .section2 .pro{
+            margin-bottom: 17%;
+        }
         .container5 .section5 .border2{
             width: 100%;
         
@@ -1238,6 +1241,9 @@ footer .footer{
                 background-size: cover;
                 
              }
+             .container2 .background .section2 .pro{
+                margin-bottom: 19%;
+            }
             .container-contact  .contact{
                 width: 33%;
             
@@ -1289,7 +1295,9 @@ footer .footer{
 
  
     
-
+    .container2 .background .section2 .pro{
+        margin-bottom: 17%;
+    }
 
     .container3 .section3 .border1{
         width: 100%;
@@ -1459,7 +1467,7 @@ footer .footer{
         position: absolute;
         z-index: -9999;
         width: 100%;
-        height: 90vh;
+        height: 97vh;
         background-attachment: fixed;
         background-size: cover;
     }
@@ -1714,7 +1722,7 @@ footer .footer{
         position: absolute;
         z-index: -9999;
         width: 100%;
-        height: 96vh;
+        height: 97vh;
         background-attachment: fixed;
         background-size: cover;
     }
@@ -1768,7 +1776,7 @@ footer .footer{
     }
     
     .container3 .section3 .title2{
-        width: 53%;
+        width: 55%;
     
     }
 
@@ -1974,7 +1982,7 @@ footer .footer{
         position: absolute;
         z-index: -9999;
         width: 100%;
-        height: 90vh;
+        height: 95vh;
         background-attachment: fixed;
         background-size: cover;
     }
@@ -1983,6 +1991,267 @@ footer .footer{
 
     
     
+    }
+    .container2 .background .section2 .header3{ 
+        margin-left: 0%;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        
+        
+    }
+    .container3 .section3 {
+        padding-top: 10%;
+    }
+    .container3 .section3 .content2 {
+
+        margin-left: 0%;
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+        
+    }
+    .container4 .content3 .grid1 .button1 {
+        width: 100%;
+        text-align: center;
+        padding-top: 10%;
+    }
+    .container4 .content3{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10%;
+        margin-bottom: 10%;
+        
+      
+      }
+
+ 
+    
+
+
+    .container3 .section3 .border1{
+        width: 100%;
+    
+    }
+    
+    .container3 .section3 .title2{
+        width: 60%;
+    
+    }
+
+    .container4 .content3 .grid1{
+        margin-left: 0%;
+        padding: 20px;
+    }
+    .container4 .content3 .grid2{
+        /* width: 100%; */
+        margin-left: 16%;
+        margin-bottom: 10%;
+
+    }
+    .container4 .content3 .grid2 .title4{
+        width: 66%;
+        text-align: center;
+    }
+    .wrapper{
+        width: 290px;
+    }
+    .skill1 .skill-count1{
+        left: 85%;
+    }
+    
+    .skill2 .skill-count2 {
+        left: 90%;
+    }
+
+    .skill3 .skill-count3 {
+        left: 100%;
+    }
+    .container5 .section5 .content5 {
+        margin-left: 0%;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 5%;
+        padding: 10px;
+    }
+
+    .container5 .section5 .border2{
+        width: 100%;
+    
+    }
+    
+    .container5 .section5 .projects{
+        width: 65%;
+    
+    }
+    .container5 .section5 .project-img{
+        display: grid;
+        grid-template-columns: 1fr;
+      
+    }
+    .container5 .section5 .project-img .project-img1{
+       width: 60%;
+       margin-bottom: 20px;
+       /* text-align: center; */
+    }
+    .container5 .section5 .project-img .project-img1 img{
+        width: 100%;
+        height: 100%;
+      
+    }
+    .container5 .section5 .project-content{
+        width: 100%;
+        text-align: center;
+    }
+    .container5 .section5 .project-content .project-title2{
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    .container5 .section5 .project2-img{
+        display: grid;
+        grid-template-columns: 1fr;
+   
+    }
+    .container5 .section5 .project2-img .project2-img1{
+        width: 60%;
+        margin-bottom: 20px;
+        /* text-align: center; */
+     }
+     .container5 .section5 .project2-img .project2-img1 img{
+         width: 100%;
+         height: 100%;
+       
+     }
+     .container5 .section5 .project2-content{
+         width: 100%;
+         text-align: center;
+     }
+     .container5 .section5 .project2-content .project2-title2{
+         width: 100%;
+         text-align: center;
+         padding: 10px;
+     }
+
+    .container5 .section5 .project3-img{
+        display: grid;
+        grid-template-columns: 1fr ;
+ 
+    }
+    .container5 .section5 .project3-img .project3-img1{
+        width: 60%;
+        margin-bottom: 20px;
+        /* text-align: center; */
+     }
+     .container5 .section5 .project3-img .project3-img1 img{
+         width: 100%;
+         height: 100%;
+       
+     }
+     .container5 .section5 .project3-content{
+         width: 100%;
+         text-align: center;
+     }
+     .container5 .section5 .project3-content .project3-title2{
+         width: 100%;
+         text-align: center;
+         padding: 10px;
+     }
+     .container-contact .content6 {
+
+        margin-left: 0%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .container-contact{
+        width: 100%;
+        height:fit-content;
+        background-image: url(/images/background3.jpg);
+        background-size: cover;
+        
+     }
+    .container-contact  .contact{
+        width: 58%;
+    
+    }
+    .container-contact .border3{
+        width: 100%;
+    
+    }
+    .container-contact .section-contact{
+        flex-direction: column;
+    }
+    .container-contact .section-contact .contact-heading{
+        width: 100%;
+        text-align: center;
+      
+    
+    }
+    .container-contact .section-contact .contact-heading .contact-img{
+        margin-top: 10%;
+        margin-left: 0%;
+    }
+    .container-contact .section-contact .contact-heading .contact-img img{
+        width: 100%;
+
+    }
+
+    .container-contact .section-contact .contact-form {
+        margin-left: 18%;
+        width: 68%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+
+    }
+    .row{
+        width: 82%;
+        margin-left: 18%;
+
+    }
+    .col{
+        flex-basis: 60%;
+    }
+    .col-1{
+        width: 100%;
+       
+    }
+
+    .line1{
+    width: 80%;
+    /* border-bottom: 2px solid white; */
+    margin-left: 45px;
+    padding-top: 40px;
+}
+
+    
+    
+}
+
+
+@media screen and (max-width:450px) {
+    .container{
+        width: 100%;
+    }
+    .container1{
+        width: 100%;
+    }
+    .background img {
+        position: absolute;
+        z-index: -9999;
+        width: 100%;
+        height: 95vh;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .container1 .section1 .nav a{
+        font-size: 20px;
+
+    
+    
+    }
+    .container2 .background .section2 .pro {
+        margin-bottom: 20%;
     }
     .container2 .background .section2 .header3{ 
         margin-left: 0%;
@@ -2231,7 +2500,7 @@ footer .footer{
         position: absolute;
         z-index: -9999;
         width: 100%;
-        height: 88vh;
+        height: 94vh;
         background-attachment: fixed;
         background-size: cover;
     }
@@ -2300,6 +2569,7 @@ footer .footer{
 
 
     .container3 .section3 .border1{
+        padding-top: 10%;
         width: 100%;
     
     }
@@ -2522,10 +2792,11 @@ footer .footer{
         position: absolute;
         z-index: -9999;
         width: 100%;
-        height: 97vh;
+        height: 98vh;
         background-attachment: fixed;
         background-size: cover;
     }
+
     .container1 .section1 .nav {
         display: flex;
         justify-content: flex-start;
