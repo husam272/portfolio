@@ -1715,6 +1715,9 @@ footer .footer{
         background-attachment: fixed;
         background-size: cover;
     }
+    .container2 .background .section2 .pro{
+        margin-bottom: 15%;
+    }
     .container2 .background .section2{
         padding-top: 20%;
      
