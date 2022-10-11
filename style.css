@@ -2505,10 +2505,8 @@ footer .footer{
     }
     .container1 .section1 .nav a{
         font-size: 14px;
-
-    
-    
     }
+
     .container2 .background .section2 .header3{ 
         margin-left: 0%;
         width: 100%;
@@ -2516,6 +2514,9 @@ footer .footer{
         padding: 10px;
         
         
+    }
+    .container2 .background .section2{
+        padding-top: 20%;
     }
     /* .container3 .section3 {
         padding-top: 23%;
