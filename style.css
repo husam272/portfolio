@@ -1012,6 +1012,27 @@ footer .footer{
         height: 125vh;
         background-image: url(/images/background3.jpg);
      }
+     .container3 .section3 .border1{
+        width: 100%;
+    
+    }
+    
+    .container3 .section3 .title2{
+        width: 25%;
+    
+    }
+    .container3 .section3 .border1{
+        width: 100%;
+    
+    }
+    .container5 .section5 .projects {
+    width: 23%;
+    }
+    .container-contact .contact {
+        width: 23%;
+    }
+    
+
     
 }  
 @media screen and (max-width:1200px) {
@@ -2517,6 +2538,9 @@ footer .footer{
     }
     .container2 .background .section2{
         padding-top: 20%;
+    }
+    .container2 .background .section2 .pro{
+        margin-bottom: 20%;
     }
     /* .container3 .section3 {
         padding-top: 23%;
