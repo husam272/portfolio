@@ -117,10 +117,10 @@
                     .nav-links li {
                         opacity: 0;
                     }
-                    .nav-links a:hover{
+                    .nav-links li a:hover{
                         color: #05595B;
                     }
-                    .nav-links a::after{
+                    .nav-links li a::after{
                        content:'';
                        width: 0%;
                        height: 4px;
@@ -130,7 +130,7 @@
                        transition:0.5s ;
                     
                     }
-                    .nav-links a:hover::after{
+                    .nav-links li a:hover::after{
                         width: 100%;
                     } 
                     
