@@ -342,12 +342,12 @@ nav img{
     width: 320%;
     text-align: end;
 } */
-.container2 .background .section2 .button1:hover{
-    /* transform: scale(1.05); */
-    /* box-shadow: 5px 5px 5px 5px#05595B; */
+/* .container2 .background .section2 .button1:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px 5px#05595B;
 
    
-}
+} */
 .container2 .background .section2 .button1 a{
     background-color: #F0F5F9;
     text-transform: uppercase;
@@ -411,6 +411,8 @@ nav img{
     width: 100%;
     height: 120vh;
 } */
+
+
 .container3 .section3 .border1{
     width: 100%;
     display: flex;
@@ -1274,6 +1276,8 @@ footer .footer{
     left: 10px;
     animation: moving 2s linear infinite;
 }
+
+
 @keyframes moving{
     0%{
         left:-5px;
@@ -1298,8 +1302,58 @@ footer .footer{
 }
 
 
+
+
   /* ------responsive-------- */
 
+  @media screen and (max-width:1400px) {
+    .container2{
+        width: 100%;
+        height: 90vh;
+        
+    }
+    .container2 .background .section2{
+        padding-top: 15%;
+     
+   }
+
+    .background img{
+        position: absolute;
+        z-index: -9999;
+        width: 100%;
+        height: 93vh;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .container-contact{
+        width: 100%;
+        height: 125vh;
+        background-image: url(/images/background3.jpg);
+     }
+     .container3 .section3 .border1{
+        width: 100%;
+    
+    }
+    
+    .container3 .section3 .title2{
+        width: 25%;
+    
+    }
+    .container3 .section3 .border1{
+        width: 100%;
+    
+    }
+    .container5 .section5 .projects {
+    width: 23%;
+    }
+    .container-contact .contact {
+        width: 23%;
+    }
+    .container-contact{
+        height: 115vh;
+    }
+
+}
 
 @media screen and (max-width:1300px) {
     .container2{
