@@ -1350,7 +1350,7 @@ footer .footer{
         width: 23%;
     }
     .container-contact{
-        height: 115vh;
+        height: 122vh;
     }
 
 }
@@ -1397,6 +1397,9 @@ footer .footer{
     }
     .container-contact .contact {
         width: 23%;
+    }
+    .container-contact{
+        height: 122vh;
     }
     
 
