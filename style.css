@@ -3036,6 +3036,11 @@ margin-bottom: 5px;
 @media screen and (max-width:400px) {
 
 
+    body{
+        overflow: hidden;
+    }
+
+
 
     .container2{
         width: 100%;
