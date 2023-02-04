@@ -3037,7 +3037,7 @@ margin-bottom: 5px;
 
 
     body{
-        overflow: hidden;
+        overflow: scroll;
     }
 
 
